@@ -1,0 +1,134 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.input-container {
+    display: flex;
+    gap: 32px;
+}
+
+select {
+    font-size: 14px !important;
+}
+
+.form-buttons {
+    margin-top: 16px;
+}
+
+button[type="reset"] {
+    background-color: grey;
+    border: grey;
+}
+
+.two-column {
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}
+
+.two-column label {
+    color: white;
+}
+
+.left-column {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-column {
+    background-color: #0d6efd;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.right-column .form-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solid-divider {
+    border-top: 1px solid white;
+    margin: 32px 0;
+    opacity: 1;
+    width: 80%;
+    margin: 32px auto;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.signup label {
+    display: block;
+}
+
+.footer-container {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    padding: 16px;
+    text-align: center;
+}
+
+.signin-menu {
+    background-color: #0d6efd;
+    padding: 8px;
+    text-align: center; 
+    border-radius: 100px;
+    margin-top: 16px;
+}
+
+.signin-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.shift-registration-main {
+    background-color: #0d6efd;
+    height: 100%;
+}
+.form-container {
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.hello {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 32px;
+}
+
+tr {
+    padding: 4px;
+}
